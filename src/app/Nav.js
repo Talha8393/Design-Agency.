@@ -1,6 +1,5 @@
 "use client"
 import Image from 'next/image'
-import styles from "./globals.css";
 import { useState } from 'react';
 import logopic from './images/BrightUI.svg'
 
@@ -13,6 +12,7 @@ const Navbar = () =>
    
     return(
       <>
+      
   <nav className={`navbar ${isMenuOpen ? 'show' : ''}`} >
     <a href="#top">
       <Image className="logo"  src={logopic} alt="BrightUI" /> 

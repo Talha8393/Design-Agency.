@@ -105,7 +105,7 @@ return(
             <div className="sc-header3">
              <p>See my work <i class="fa-solid fa-arrow-right"></i></p>
             </div>
-            <Image src={tablet} alt="tab-img" className="scard-img" objectFit="contain"  />
+            <Image src={tablet} alt="tab-img" className="scard-img"   />
         </div>
    
 {/* -------------------Card2---------------- */}
@@ -120,7 +120,7 @@ return(
             <div className="sc-header3">
              <p>How I help <i class="fa-solid fa-arrow-right"></i></p>
             </div>
-            <Image src={imac} alt="tab-img" className="scard-img" objectFit="contain"  />
+            <Image src={imac} alt="tab-img" className="scard-img"  />
         </div>
     
   
